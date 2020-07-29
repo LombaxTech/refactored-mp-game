@@ -6,6 +6,12 @@ const config = {
     width: 1200,
     height: 600,
     scene: [playGame],
+    physics: {
+        default: "arcade",
+        // arcade: {
+
+        // }
+    },
 };
 
 let game = new Phaser.Game(config);
